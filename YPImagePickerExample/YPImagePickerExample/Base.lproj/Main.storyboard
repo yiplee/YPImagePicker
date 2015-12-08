@@ -49,7 +49,7 @@
         <!--Picker-->
         <scene sceneID="Bwu-5t-ig3">
             <objects>
-                <viewController id="Nk8-bE-Mts" sceneMemberID="viewController">
+                <viewController id="Nk8-bE-Mts" customClass="YPImagePickerExampleController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xgE-Js-2Ze"/>
                         <viewControllerLayoutGuide type="bottom" id="cqe-3A-qLG"/>
@@ -71,6 +71,9 @@
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraAction:" destination="Nk8-bE-Mts" eventType="touchUpInside" id="1dt-TV-USs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Editing Style" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4I-r1-Jvt">
                                 <rect key="frame" x="141" y="505" width="94" height="21"/>
@@ -93,6 +96,9 @@
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Photoes"/>
+                                <connections>
+                                    <action selector="openPhotoLibraryAction:" destination="Nk8-bE-Mts" eventType="touchUpInside" id="5Yc-ct-y2d"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -113,8 +119,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Picker" id="1TP-Wq-LJq">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="action" id="4gl-BQ-Gad"/>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="action" id="4gl-BQ-Gad">
+                            <connections>
+                                <action selector="shareAction:" destination="Nk8-bE-Mts" id="vdO-Rz-Byx"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="actionBarButton" destination="4gl-BQ-Gad" id="jgm-SV-mE2"/>
+                        <outlet property="editingStyleSelector" destination="XOb-it-zuA" id="ask-ro-ojo"/>
+                        <outlet property="imageView" destination="Xj9-Mg-S9B" id="BCQ-Hn-wx0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZ4-7W-242" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

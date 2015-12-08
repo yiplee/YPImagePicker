@@ -13,6 +13,7 @@
 		E8653CBF1C16CFEE00B2713D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8653CBE1C16CFEE00B2713D /* Assets.xcassets */; };
 		E8653CC21C16CFEE00B2713D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8653CC01C16CFEE00B2713D /* LaunchScreen.storyboard */; };
 		E8653CCC1C16D53800B2713D /* YPMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8653CCB1C16D53800B2713D /* YPMainTabBarController.m */; };
+		E8653CD21C1730D900B2713D /* YPImagePickerExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8653CD11C1730D900B2713D /* YPImagePickerExampleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E8653CC31C16CFEE00B2713D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8653CCA1C16D53800B2713D /* YPMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPMainTabBarController.h; sourceTree = "<group>"; };
 		E8653CCB1C16D53800B2713D /* YPMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPMainTabBarController.m; sourceTree = "<group>"; };
+		E8653CD01C1730D900B2713D /* YPImagePickerExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPImagePickerExampleController.h; sourceTree = "<group>"; };
+		E8653CD11C1730D900B2713D /* YPImagePickerExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPImagePickerExampleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E8653CB61C16CFEE00B2713D /* AppDelegate.m */,
 				E8653CCA1C16D53800B2713D /* YPMainTabBarController.h */,
 				E8653CCB1C16D53800B2713D /* YPMainTabBarController.m */,
+				E8653CD01C1730D900B2713D /* YPImagePickerExampleController.h */,
+				E8653CD11C1730D900B2713D /* YPImagePickerExampleController.m */,
 				E8653CBB1C16CFEE00B2713D /* Main.storyboard */,
 				E8653CBE1C16CFEE00B2713D /* Assets.xcassets */,
 				E8653CC01C16CFEE00B2713D /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 			files = (
 				E8653CB71C16CFEE00B2713D /* AppDelegate.m in Sources */,
 				E8653CCC1C16D53800B2713D /* YPMainTabBarController.m in Sources */,
+				E8653CD21C1730D900B2713D /* YPImagePickerExampleController.m in Sources */,
 				E8653CB41C16CFEE00B2713D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
