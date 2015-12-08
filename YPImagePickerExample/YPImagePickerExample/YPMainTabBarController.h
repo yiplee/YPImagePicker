@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YPMainTabBarController.h
 //  YPImagePickerExample
 //
 //  Created by Guoyin Lee on 12/8/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YPMainTabBarController : UITabBarController
 
 @end
-
